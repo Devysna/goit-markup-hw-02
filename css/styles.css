@@ -13,9 +13,7 @@
 
 body {
     
-    color: var(--primary-text-color);
-        
-        
+    color: var(--primary-text-color);   
     font-family: 'Roboto', sans-serif;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -63,6 +61,7 @@ header {
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
+        letter-spacing: 0.03em;
         }
 
 .site-nav-item
@@ -102,12 +101,14 @@ color: var(--hero-text-color);
 }
     
 .buttom {
+font-family: 'Roboto', sans-serif;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.06em;
 color: var(--hero-text-color);
 background-color: var(--accent-color);
+cursor: pointer;
 }
 
 .buttom:hover,
@@ -126,7 +127,6 @@ color: var(--title-text-color);
 }
 
 .benefits-text {
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 }
@@ -142,10 +142,8 @@ line-height: 1.71;
 }
 
 .team-text {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
-color: var(--primary-text-color);
 }
 
 .team {
@@ -170,7 +168,6 @@ footer {
 .address-mail,
 .address-tel {
 font-style: normal;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 }
@@ -181,5 +178,39 @@ line-height: 1.71;
     color: var(--tel-mail-footer);
 }
 
+/*Buttom-filtr*/
+
+.buttom-filtr {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+color: var(--title-text-color);
+letter-spacing: 0.03em;
+background-color: var(--team-bg-color);
+cursor: pointer;
+}
 
 
+.buttom-filtr:hover,
+.buttom-filtr:focus
+ {
+    color: var(--hero-text-color);
+    background-color: var(--accent-color);
+}
+/*Projects*/
+
+.project-title {
+
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--title-text-color);
+}
+
+.project-text {
+
+font-size: 16px;
+line-height: 1.88;
+}
