@@ -1,0 +1,171 @@
+/* Загальні налаштування*/
+:root {
+    
+    --primary-text-color: #757575;;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --hero-text-color: #FFFFFF;
+    --hero-bg-color:#2F303A;
+    --logo-twopart-color: #000000;
+    --tel-mail-footer: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    
+    color: var(--primary-text-color);
+        
+        
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.secton-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--title-text-color);
+    }
+
+a {
+    text-decoration: none;
+        }
+
+a:hover,
+a:focus {
+    color: var(--accent-color);
+        }
+
+li {
+    list-style: none;
+        }
+  
+        /* Навігація*/
+
+.logo-nav-firstpart {
+            color: var(--accent-color);
+            }
+            
+.logo-nav-twopart {
+            color: var(--logo-twopart-color);
+            }
+
+.logo-nav-firstpart,
+.logo-nav-twopart,
+.logo-nav-twopart-footer {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        }
+
+.site-nav-item
+{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+/*Телефон і mail*/
+.site-tel, .site-mail {
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.02em;
+}
+
+.site-tel {color: var(--primary-text-color);}
+.site-mail {color: var(--accent-color);}
+
+/* Hero*/
+
+.hero {
+    background-color: var(--hero-bg-color);
+}
+.hero-title { 
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--hero-text-color);
+}
+    
+.buttom {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+color: var(--hero-text-color);
+background-color: var(--accent-color);
+}
+
+.buttom:hover,
+.buttom:focus
+ {
+    color: var(--hero-bg-color);
+}
+
+/* Benefits*/
+
+.benefits-title {
+font-weight: 700;
+font-size: 14px;
+text-transform: uppercase;
+color: var(--title-text-color);
+}
+
+.benefits-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+}
+
+/*Team*/
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19; 
+    color: var(--title-text-color);
+}
+
+.team-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+color: var(--primary-text-color);
+}
+
+/*Footer*/
+
+footer {
+    background-color:var(--hero-bg-color);
+}
+
+.logo-nav-twopart-footer,
+.address-text {
+    color: var(--hero-text-color);
+}
+
+.address-text,
+.address-mail,
+.address-tel {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+}
+
+
+.address-mail,
+.address-tel {
+    color: var(--tel-mail-footer);
+}
+
+
+

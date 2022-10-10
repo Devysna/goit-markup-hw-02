@@ -5,51 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Студія</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="site-nav">
         <ul>
-            <li><a href="/">WebStudio</a></li>
-            <li><a href="">Студія</a></li>
-            <li><a href="">Портфоліо</a></li>
-            <li><a href="">Контакти</a></li>
+            <li><a class="site-nav-item" href="/" class="logo-nav" ><span class="logo-nav-firstpart">Web</span><span class="logo-nav-twopart">Studio</span></a></li>
+            <li><a class="site-nav-item current" href="/" class="site-nav-link">Студія</a></li>
+            <li><a class="site-nav-item" href="" class="site-nav-link">Портфоліо</a></li>
+            <li><a class="site-nav-item" href="" class="site-nav-link">Контакти</a></li>
         </ul>
         </nav>
         <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li><a class="site-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="site-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main>
-        <section>
-            <h1>Ефективні рішення для вашого бізнесу</h1>
-            <button type="button">Замовити послугу</button>
+        <section class="hero">
+            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+            <button class="buttom" type="button">Замовити послугу</button>
         </section>
         <section>
             <h2>Переваги роботи Студії</h2>
             <!--Заголовок "Переваги роботи Студії" буде приховано css-->
             <ul>
                 <li>
-                    <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    <h3 class="benefits-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                    <p class="benefits-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
                 <li>
-                    <h3>ПУНКТУАЛЬНІСТЬ</h3>
+                    <h3 class="benefits-title">ПУНКТУАЛЬНІСТЬ</h3>
                     <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
                 <li>
-                    <h3>ПЛАНУВАННЯ</h3>
-                    <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                    <h3 class="benefits-title">ПЛАНУВАННЯ</h3>
+                    <p class="benefits-text">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
                 <li>
-                    <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    <h3 class="benefits-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <p class="benefits-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
         </section>
         <section>
-            <h2>Чим ми займаємося</h2>
+            <h2 class="secton-title">Чим ми займаємося</h2>
             <ul>
                 <li>
                     <img src="./images/case-a.jpg" alt="website development" width="370" height="294">
@@ -63,37 +69,37 @@
             </ul>
         </section>
         <section>
-            <h2>Наша команда</h2>
+            <h2 class="secton-title">Наша команда</h2>
             <ul>
                 <li>
                     <img src="./images/team-a.jpg" alt="Product Designer" width="270" height="260">
-                    <h3>Ігор Дем'яненко</h3>
-                    <p>Product Designer</p>
+                    <h3 class="team-title">Ігор Дем'яненко</h3>
+                    <p class="team-text">Product Designer</p>
                 </li>
                 <li>
                     <img src="./images/team-b.jpg" alt="Frontend Developer" width="270" height="260">
-                    <h3>Ольга Рєпіна</h3>
-                    <p>Frontend Developer</p>
+                    <h3 class="team-title">Ольга Рєпіна</h3>
+                    <p class="team-text">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./images/team-c.jpg" alt="Marketing" width="270" height="260">
-                    <h3>Микола Тарасов</h3>
-                    <p>Marketing</p>
+                    <h3 class="team-title">Микола Тарасов</h3>
+                    <p class="team-text">Marketing</p>
                 </li>
                 <li><img src="./images/team-b.jpg" alt="UI Designer" width="270" height="260">
-                    <h3>Михайло Єрмаков</h3>
-                    <p>UI Designer</p>
+                    <h3 class="team-title">Михайло Єрмаков</h3>
+                    <p class="team-text">UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
     <footer>
-        <a href="/">WebStudio</a>
+        <a href="/"><span class="logo-nav-firstpart">Web</span><span class="logo-nav-twopart-footer">Studio</span></a>
         <address>
             <ul>
-                <li><a href="#">м. Київ, пр-т Лесі Українки, 26</a></li>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li><a class="address-text"href="#">м. Київ, пр-т Лесі Українки, 26</a></li>
+                <li><a class="address-mail"href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="address-tel"href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>
