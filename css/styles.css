@@ -9,8 +9,7 @@
     --logo-twopart-color: #000000;
     --tel-mail-footer: rgba(255, 255, 255, 0.6);
     --team-bg-color: #F5F4FA;
-    --benefits-bg-color:#F5F5F5;
-}
+    }
 
 body {
     
@@ -132,10 +131,6 @@ font-size: 14px;
 line-height: 1.71;
 }
 
-.benefits,
-.projects {
-background-color: var(--benefits-bg-color);
-}
 
 /*Team*/
 
