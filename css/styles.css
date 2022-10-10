@@ -8,6 +8,8 @@
     --hero-bg-color:#2F303A;
     --logo-twopart-color: #000000;
     --tel-mail-footer: rgba(255, 255, 255, 0.6);
+    --team-bg-color: #F5F4FA;
+    --benefits-bg-color:#F5F5F5;
 }
 
 body {
@@ -39,7 +41,12 @@ a:focus {
 li {
     list-style: none;
         }
-  
+        
+        /*     Header*/
+header {
+    background-color: var(--hero-text-color);
+}
+
         /* Навігація*/
 
 .logo-nav-firstpart {
@@ -125,6 +132,11 @@ font-size: 14px;
 line-height: 1.71;
 }
 
+.benefits,
+.projects {
+background-color: var(--benefits-bg-color);
+}
+
 /*Team*/
 
 .team-title {
@@ -141,6 +153,13 @@ line-height: 1.19;
 color: var(--primary-text-color);
 }
 
+.team {
+    background-color: var(--team-bg-color);
+}
+
+.team-item {
+    background-color: var(--hero-text-color);
+}
 /*Footer*/
 
 footer {
