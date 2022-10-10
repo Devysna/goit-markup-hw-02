@@ -101,7 +101,7 @@ color: var(--hero-text-color);
 }
     
 .buttom {
-font-family: 'Roboto', sans-serif;
+font-family: inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -181,7 +181,7 @@ line-height: 1.71;
 /*Buttom-filtr*/
 
 .buttom-filtr {
-font-family: 'Roboto', sans-serif;
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
