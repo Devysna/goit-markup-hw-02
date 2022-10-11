@@ -9,6 +9,7 @@
     --logo-twopart-color: #000000;
     --tel-mail-footer: rgba(255, 255, 255, 0.6);
     --team-bg-color: #F5F4FA;
+    --buttom-bg-color: #188ce8;
     --second-font: 'Raleway', sans-serif;
     }
 
@@ -129,7 +130,7 @@ cursor: pointer;
 .buttom:hover,
 .buttom:focus
  {
-    color: var(--hero-bg-color);
+    background-color: var(--buttom-bg-color);
 }
 
 /* Benefits*/
