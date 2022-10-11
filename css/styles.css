@@ -1,7 +1,7 @@
 /* Загальні налаштування*/
 :root {
     
-    --primary-text-color: #757575;;
+    --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --hero-text-color: #FFFFFF;
@@ -137,6 +137,7 @@ cursor: pointer;
 
 .benefits-title {
 font-weight: 700;
+font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
 color: var(--title-text-color);
@@ -227,4 +228,5 @@ color: var(--title-text-color);
 
 font-size: 16px;
 line-height: 1.88;
+color: var(--primary-text-color);
 }
